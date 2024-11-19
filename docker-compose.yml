@@ -6,6 +6,8 @@ services:
     ports:
       - "8000:8000"
     environment:
+
+
       - SECRET_KEY=y75ctLvgtHHtb1X7i8qT4I1/eFssdmuBO/tRiOmgJXkB/6oybKLgABO6GAasPB+uLOMqzusNFz4O8lDVPDwmhw==
       - UPLOAD_FOLDER=/var/uploads
       - DATABASE_URL=mysql+pymysql://ctfd:ctfd@db/ctfd
